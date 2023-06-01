@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7d04056390.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div id="header">
@@ -21,13 +22,179 @@
                 <li><a href="#">Portfolio</a></li>
 
                 <li><a href="#">Contact</a></li>
-                
-        
             </ul>
         </nav>
-    </div>
-
+        <div class="header-text">
+            <p>SOFTWARE ENGINEER</p>
+            <h1>Hello, Iam <span>Bildad</span> <br> Cheruiyot from Kenya</h1>
         </div>
+    </div>
+</div>
+        <!----About--------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/sa.png" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            I am a passionate and dedicated software engineer with a strong background in web development. I have a solid understanding of various programming languages, frameworks, and technologies. My primary focus is on building scalable and efficient web applications that deliver an exceptional user experience.
+                        </p>
+                        <p>
+                            Throughout my career, I have successfully collaborated with cross-functional teams to design, develop, and deploy high-quality software solutions. I thrive in dynamic and fast-paced environments and possess excellent problem-solving skills. I stay updated with the latest industry trends and continuously strive to enhance my technical skills to deliver innovative solutions.
+                        </p>
+                        <p>
+                            Besides my technical expertise, I am a great communicator and enjoy working in a collaborative environment. I am always eager to learn from others and contribute my knowledge and skills to drive the success of the team. I am passionate about leveraging technology to solve real-world challenges and make a positive impact.
+                        </p>
+                        <p>
+                            If you have any exciting projects or opportunities, feel free to reach out. I am always open to new challenges and ready to take on exciting software engineering endeavors.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Programming Languages: </span>Proficient in Python,Java,JavaScript</li>
+                                <li><span>Web Development: </span>Experience in building web applications using <br> HTML, CSS, and JavaScript, along with frameworks and libraries <br>like React, Angular, or Django.</li>
+                                <li><span>Software Development: </span>Knowledge of software development principles, <br> including coding standards, version control, and testing methodologies.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023- Current: </span>ALX Software engineering student</li>
+                                <li><span>2021- 2023: </span>ICT officer at Ministry of Education</li>
+                                <li><span>2019- 2020: </span>ICT Intern at James Finlay Kenya</li>
+                            </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023: </span>Software Engineering-ALX Africa</li>
+                            <li><span>2015 - 2019: </span>Bsc.Information Technology- University of Kabianga</li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+        <!---   Services----->
+        <div id="services">
+            <div class="container">
+             <h1 class="sub-title">My Services</h1>
+             <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>Building and maintaining websites using technologies such as 
+                            HTML, CSS, JavaScript, and various web 
+                            frameworks and CMS platforms.</p>
+                            <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-sharp fa-solid fa-crop"></i>
+                        <h2>Software Development</h2>
+                        <p>Designing, coding, testing, and deploying software applications
+                            tailored to meet specific requirements.</p>
+                            <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>Custom Software Solutions</h2>
+                        <p>Developing bespoke software solutions to address unique business
+                            needs, including enterprise resource planning (ERP) systems, 
+                            customer relationship management (CRM) systems, and workflow automation tools.</p>
+                            <a href="#">Learn More</a>
+                    </div>
+               <!--- <div>
+                    <i class="fa-solid fa-wreath-laurel"></i>
+                    <h2>Code Review and Quality Assurance</h2>
+                    <p>Conducting code reviews to identify and rectify issues, ensuring adherence to 
+                        coding standards, and implementing quality assurance processes to
+                         enhance software reliability and maintainability.</p>
+                        <a href="#">Learn More</a>
+                </div> --->
+
+
+             </div>
+
+            </div>
+        </div>
+        <!------Portfolio-------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/anete-lusina-zwsHjakE_iI-unsplash.jpg" alt="">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>The App is used for communication purpose. It is available in Playstore</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/lee-campbell-DtDlVpy-vvQ-unsplash.jpg" alt="">
+                        <div class="layer">
+                            <h3>Trading App</h3>
+                            <p>The App is used for trading purpose. It is available in Playstore</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/student-849823.jpg" alt="">
+                        <div class="layer">
+                            <h3>Soko App</h3>
+                            <p>The App is used for trading purpose. It is available in Playstore</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/thought-catalog-505eectW54k-unsplash.jpg" alt="">
+                        <div class="layer">
+                            <h3>School App</h3>
+                            <p>The App is used in schools for accademic purpose. It is available in Playstore</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/domenico-loia-hGV2TfOh0ns-unsplash.jpg" alt="">
+                        <div class="layer">
+                            <h3>Banking App</h3>
+                            <p>The App is used for SACCO services. It is available in Playstore</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/joshua-aragon-BMnhuwFYr7w-unsplash.jpg" alt="">
+                        <div class="layer">
+                            <h3>Food Ordering App</h3>
+                            <p>The App is used in restaurants for ordering and delivery services. It is available in Playstore</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+      <script>
+
+        var tablinks= document.getElementsByClassName("tab-links");
+
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for (tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+      </script>  
+          
     
 </body>
 </html>
