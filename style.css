@@ -110,6 +110,7 @@ nav ul li a:hover::after{
     background: #ff004f;
     position: absolute;
     left: 0;
+
     bottom: -8px;
     transition: 0.5s;
 }             
